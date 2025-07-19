@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+@layer base {
+  html {
+    @apply bg-surface-content text-content-primary;
+  }
+  
+  body {
+    @apply font-sans antialiased;
+  }
+}
